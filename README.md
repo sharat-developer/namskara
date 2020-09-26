@@ -8,8 +8,11 @@ Installation
 Usage
 ------------
 $`Namskara.hi('kannada')`
+
 $`Namskara.hi('hindi')`
+
 $`Namskara.hi('english')`
+
 
 RubyGems Guide references:
 ------------
