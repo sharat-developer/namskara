@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require '././lib/namskara'
+puts Namskara.hi(ARGV[0])
