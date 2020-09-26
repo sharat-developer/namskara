@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name               = "namskara"
-  s.version            = "0.0.2"
+  s.version            = "0.0.3"
   s.default_executable = "namskara"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sharat Hegde"]
   s.date = %q{2020-09-26}
-  s.description = %q{A "hello world!" gem. Get the [namskara gem](https://github.com/sharat-developer/namskara) source code on the GitHub - https://github.com/sharat-developer/namskara}
+  s.description = %q{A "hello world!" gem. Get the namskara gem source code from GitHub - https://github.com/sharat-developer/namskara}
   s.email = %q{sharat.developer@gmail.com}
   s.files = ["Rakefile", "lib/namskara.rb", "lib/namskara/translator.rb", "bin/namskara"]
   s.test_files = ["test/test_namskara.rb"]
