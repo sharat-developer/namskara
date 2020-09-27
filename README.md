@@ -7,11 +7,13 @@ Installation
 
 Usage
 ------------
-$`Namskara.hi('kannada')`
+`require 'namskara'`
 
-$`Namskara.hi('hindi')`
+`Namskara.hi('kannada')`
 
-$`Namskara.hi('english')`
+`Namskara.hi('hindi')`
+
+`Namskara.hi('english')`
 
 
 RubyGems Guide references:
@@ -22,6 +24,25 @@ RubyGems Guide references:
 
 ###### Useful commands while publishing gems:
 
-- $ `rake test`
-- $ `gem build namskara.gemspec`
-- $ `gem push namskara-0.0.X.gem`
+$ `rake test`
+
+$ `gem build namskara.gemspec`
+
+$ `gem install ./namskara-0.0.X.gem` => install gem from local
+
+$ `gem push namskara-0.0.X.gem`
+
+$ `gem list -r namskara`
+
+$ `gem install namskara` => install gem from RubyGems.org
+
+
+```
+$irb
+
+>> require 'namskara'
+=> true
+
+>> Namskara.hi('kannada')
+=> "namskara prapancha"
+```
